@@ -1,1 +1,50 @@
+body { 
+    background-color: #DAE0E6;
+
+}
+.App { 
+    display: flex;
+
+}
+.Nav { 
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 6vh; 
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav-links { 
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+
+#face { 
+    color: #FF4500;
+}
+
+#home-link { 
+    font-family: 'Varela Round', sans-serif;
+}
+
+#profile, #notifications, #home-link { 
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#searchbar { 
+    height: 3vh; 
+    width: 30%;
+}
 
