@@ -136,3 +136,11 @@ body {
     color: gray;
     font-size: smaller;
 }
+
+.comments, .awards, .share { 
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
