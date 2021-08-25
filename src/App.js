@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState} from 'react';
 import './App.css';
 import Nav from './Nav';
 import Readits from './Readits';
@@ -33,21 +33,34 @@ function signIn() {
 function App() {
 
   //useState and useEffect here 
-  //const [feed, setFeed]? 
-  //JS functions 
+  const [votes, setVotes] = useState(244)
 
+
+  //JS functions 
   //upvote/downvote functions
+
+  function increaseVotes() {
+    setVotes(prevVotes => prevVotes + 1);
+  }
+
+  function decreaseVotes() {
+    setVotes(prevVotes => prevVotes - 1)
+  }
+
 
   return (
     <Router>
     <div className="App">
       <Nav 
       signIn = {signIn}
+      
       />
       <Switch>
         <Route exact path="/">
         <Readits
-
+        votes = {votes}
+        increaseVotes = {increaseVotes}
+        decreaseVotes = {decreaseVotes}
 
       />
         </Route>

@@ -9,11 +9,7 @@ import {Link} from 'react-router-dom';
 
 function Nav({signIn}) { 
 
-    //function signIn() {
-        // Sign into Firebase using popup auth & Google as the identity provider.
-    //    var provider = new firebase.auth.GoogleAuthProvider();
-    //    firebase.auth().signInWithPopup(provider);
-    //  }
+
 //JS here
 
     return (

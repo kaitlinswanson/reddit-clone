@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 
 
-function Readits() {
+function Readits({votes, increaseVotes, decreaseVotes}) {
 
     return (
         <div className="readit-holder">
@@ -12,9 +12,9 @@ function Readits() {
                 <div className="title">Your perception is true. We've had 10x rainfall this year over last.</div>
                 <div className="layout">
                 <div className="vote-holder">
-                    <button className="upvote"><i className="fas fa-caret-up"></i></button>
-                    <div className="vote-count">566</div>
-                    <button className="downvote"><i className="fas fa-caret-down"></i></button>
+                    <button className="upvote" onClick={increaseVotes}><i className="fas fa-caret-up"></i></button>
+                    <div className="vote-count">{votes}</div>
+                    <button className="downvote" onClick={decreaseVotes}><i className="fas fa-caret-down"></i></button>
                 </div>
                 <div className="post-content"> 
                     <div className="post-text"></div>
