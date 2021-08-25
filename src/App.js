@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Nav from './Nav';
 import Readits from './Readits';
-import { BrowserRouter as Router} from "react-router-dom";
+import Notifications from './Notifications';
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 //paages to create: 
 // - profile
@@ -25,12 +26,25 @@ function App() {
     <div className="App">
       <Nav 
       />
-      <Readits
-      />
+      <Switch>
+        <Route exact path="/">
+        <Readits
 
+
+      />
+        </Route>
+
+        <Route exact path="/notifications">
+          <Notifications
+          />
+        </Route>
+      
+
+
+</Switch>
     </div>
 
-
+    
     </Router>
 
   );

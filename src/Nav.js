@@ -13,6 +13,12 @@ function Nav() {
             </Link>
             <input id="searchbar" type="text" placeholder="Search..."></input>
             <ul className="nav-links">
+            <Link id="login" to='/login'>
+                    <li>Log In</li>
+                </Link>
+                <Link id="signup" to='/signup'>
+                    <li>Sign Up</li>
+                </Link>
                 <Link id="notifications" to='/notifications'>
                     <li><i className="far fa-bell"></i></li>
                 </Link>

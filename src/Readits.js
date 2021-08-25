@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 
 
@@ -16,7 +17,7 @@ function Readits() {
                     <button className="downvote"><i className="fas fa-caret-down"></i></button>
                 </div>
                 <div className="post-content"> 
-                    <div classname="post-text"></div>
+                    <div className="post-text"></div>
                     <img className="post-image" src="https://bloximages.newyork1.vip.townnews.com/azfamily.com/content/tncms/assets/v3/editorial/c/96/c96ba39e-015d-11ec-ae2c-c35b8d9a2917/611f12c01b2c1.image.png?resize=750%2C422" alt="valley rainfall since 1990"></img>
                     </div>
                 </div>
@@ -38,14 +39,19 @@ function Readits() {
                     <button className="downvote"><i className="fas fa-caret-down"></i></button>
                 </div>
                 <div className="post-content"> 
-                    <div classname="post-text">I felt this one.</div>
+                    <div className="post-text">I felt this one.</div>
                     <img className="post-image" src="https://preview.redd.it/uktfx1iiscj71.jpg?width=640&height=652&crop=smart&auto=webp&s=278b5ede49bb45b2728b146d7e9a6f5f5322bc5c" alt="comment section meme"></img>
                     </div>
                 </div>
+                <div className="bottom-bar">
+                    <button className="comments"><i className="far fa-comment-alt"></i></button>
+                    <button className="awards"><i className="fas fa-gift"></i></button>
+                    <button className="share"><i class="fas fa-share"></i></button>
+                    </div>
             </div>
 
             <div className="readit-posts">
-                <div className="posted-by">Posted by u/Doghair221
+                <div className="posted-by">Posted by u/throwaway212134
                 </div>
                 <div className="title">First time cutting my natural hair...Should I straighten it?</div>
                 <div className="layout">
@@ -55,7 +61,7 @@ function Readits() {
                     <button className="downvote"><i className="fas fa-caret-down"></i></button>
                 </div>
                 <div className="post-content"> 
-                    <div classname="post-text">
+                    <div className="post-text">
                     I want to get a trim/cut bc i have dead ends and my natural hair lacks shape. 
                     I walked into a salon that told me they had to straighten it in order to cut it. I was hesitant about putting heat on 
                     it plus wanted to do more research before i mess up my hair and leave the salon crying. 
@@ -66,8 +72,13 @@ function Readits() {
                     
                     </div>
                 </div>
+                <div className="bottom-bar">
+                    <button className="comments"><i className="far fa-comment-alt"></i></button>
+                    <button className="awards"><i className="fas fa-gift"></i></button>
+                    <button className="share"><i class="fas fa-share"></i></button>
+                    </div>
             </div>
-
+            
         </div>
     )
 }

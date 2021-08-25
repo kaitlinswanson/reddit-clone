@@ -8,6 +8,9 @@ body {
     justify-content: center;
 
 }
+
+/* Nav Section */
+
 .Nav { 
     display: flex;
     flex-direction: row;
@@ -50,11 +53,37 @@ body {
     width: 30%;
 }
 
+#login, #signup { 
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#login { 
+    width: 75px; 
+    height: 25px;
+    border: 1px solid blue;
+    border-radius: 40px;
+}
+
+#signup { 
+    width: 75px; 
+    height: 25px;
+    color: white;
+    background-color: blue;
+    border-radius: 40px;
+}
+
 /* Readits Section */
 
 
 .readit-holder {
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 40%;
     
 }
@@ -114,6 +143,10 @@ body {
     object-fit: contain;
 }
 
+.post-text { 
+    padding: 10px;
+}
+
 .upvote, .downvote { 
     font-size: large;
     height: 20px;
@@ -143,4 +176,14 @@ body {
     border: none;
     background-color: transparent;
     color: gray;
+}
+
+/* Notifications Section */
+
+.notifications-container { 
+    margin-top: 20px;
+}
+
+.notifications-message { 
+    font-size: large;
 }
