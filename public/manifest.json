@@ -1,8 +1,10 @@
+
 {
-  "short_name": "React App",
-  
-  "start_url": ".",
+  "name": "Reddit Clone",
+  "short_name": "Reddit Clone",
+  "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait"
+
+
 }

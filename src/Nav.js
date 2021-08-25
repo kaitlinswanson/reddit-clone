@@ -2,8 +2,18 @@ import React from 'react';
 import './App.css';
 import {Link} from 'react-router-dom';
 
-function Nav() { 
 
+
+//function that brings up login when clicked on login
+
+
+function Nav({signIn}) { 
+
+    //function signIn() {
+        // Sign into Firebase using popup auth & Google as the identity provider.
+    //    var provider = new firebase.auth.GoogleAuthProvider();
+    //    firebase.auth().signInWithPopup(provider);
+    //  }
 //JS here
 
     return (
@@ -13,9 +23,9 @@ function Nav() {
             </Link>
             <input id="searchbar" type="text" placeholder="Search..."></input>
             <ul className="nav-links">
-            <Link id="login" to='/login'>
-                    <li>Log In</li>
-                </Link>
+           
+                    <button id="login" onClick={signIn} >Log In</button>
+                
                 <Link id="signup" to='/signup'>
                     <li>Sign Up</li>
                 </Link>
