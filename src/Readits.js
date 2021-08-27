@@ -1,11 +1,21 @@
 import React from 'react';
-
 import './App.css';
+import Readit from './Readit'
 
 
 function Readits({votes, increaseVotes, decreaseVotes}) {
 
     return (
+
+        <div className="readit-holder">
+        <Readit 
+        votes={votes}
+        increaseVotes={increaseVotes}
+        decreaseVotes={decreaseVotes}
+        />
+        </div>
+
+        /*
         <div className="readit-holder">
             <div className="readit-posts">
                 <div className="posted-by">Posted by u/Funee45</div>
@@ -32,6 +42,7 @@ function Readits({votes, increaseVotes, decreaseVotes}) {
                 <div className="posted-by">Posted by u/Doghair221
                 </div>
                 <div className="title">These comments are getting out of hand.</div>
+                
                 <div className="layout">
                 <div className="vote-holder">
                     <button className="upvote"><i className="fas fa-caret-up"></i></button>
@@ -39,7 +50,7 @@ function Readits({votes, increaseVotes, decreaseVotes}) {
                     <button className="downvote"><i className="fas fa-caret-down"></i></button>
                 </div>
                 <div className="post-content"> 
-                    <div className="post-text">I felt this one.</div>
+                    
                     <img className="post-image" src="https://preview.redd.it/uktfx1iiscj71.jpg?width=640&height=652&crop=smart&auto=webp&s=278b5ede49bb45b2728b146d7e9a6f5f5322bc5c" alt="comment section meme"></img>
                     </div>
                 </div>
@@ -78,8 +89,28 @@ function Readits({votes, increaseVotes, decreaseVotes}) {
                     <button className="share"><i class="fas fa-share"></i></button>
                     </div>
             </div>
-            
-        </div>
+            <div className="readit-posts">
+                <div className="posted-by">Posted by u/notmyaccount8347
+                </div>
+                <div className="title">He's speaking the truth!</div>
+                <div className="layout">
+                <div className="vote-holder">
+                    <button className="upvote"><i className="fas fa-caret-up"></i></button>
+                    <div className="vote-count">980</div>
+                    <button className="downvote"><i className="fas fa-caret-down"></i></button>
+                </div>
+                <div className="post-content"> 
+                <img className="post-image" src="https://preview.redd.it/fnbckmu1jvi71.jpg?width=640&height=477&crop=smart&auto=webp&s=516a38085f6b9028fdeadc8d9321c3cda6446c69" alt="embarrassment is ok meme"></img>
+                    
+                    </div>
+                </div>
+                <div className="bottom-bar">
+                    <button className="comments"><i className="far fa-comment-alt"></i></button>
+                    <button className="awards"><i className="fas fa-gift"></i></button>
+                    <button className="share"><i class="fas fa-share"></i></button>
+                    </div>
+            </div>
+        </div> */
     )
 }
 

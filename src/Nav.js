@@ -22,9 +22,9 @@ function Nav({signIn}) {
            
                     <button id="login" onClick={signIn} >Log In</button>
                 
-                <Link id="signup" to='/signup'>
-                    <li>Sign Up</li>
-                </Link>
+               
+                    <li id="signup" onClick={signIn}>Sign Up</li>
+                
                 <Link id="notifications" to='/notifications'>
                     <li><i className="far fa-bell"></i></li>
                 </Link>
