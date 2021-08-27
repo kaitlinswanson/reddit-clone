@@ -3,7 +3,6 @@ import './App.css';
 import Nav from './Nav';
 import Readits from './Readits';
 import Notifications from './Notifications';
-import ContentBar from './ContentBar';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import firebase from "firebase/app";
@@ -23,13 +22,6 @@ function signIn() {
   firebase.auth().signInWithPopup(provider);
 }
 
-//paages to create: 
-// - profile
-// - notifications
-
-// - best
-// - hot 
-// - new
 
 function App() {
 

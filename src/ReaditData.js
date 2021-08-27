@@ -42,3 +42,49 @@ export const readitData = [
     }
 
 ]
+
+export const hotData = [
+
+    {
+        poster: "u/OriginalAccount2023",
+        title: "I'm trying to name my cat. Any ideas? It's a boy",
+        text: "",
+        img: "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/is_my_cat_normal_slideshow/1800x1200_is_my_cat_normal_slideshow.jpg",
+        alt: "striped cat picture",
+        number: 111,
+        id: "00011"
+    },
+
+    { 
+        poster: "u/Nobodys23764business", 
+        title: "The weirdest thing happened to me today...",
+        text: "This is the only way to explain it",
+        img: "https://images.theconversation.com/files/38926/original/5cwx89t4-1389586191.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        alt: "kid meme", 
+        number: 546, 
+        id: "00012"
+
+    }, 
+
+    {
+        poster: "Posted by u/notmyrealacct2.",
+        title: "What cities have the best public transportation?",
+        text: "I want to move out of my hometown. I don't have a car and I need some help figuring out what city I shouyld go to. I'm looking for a balance of affordability and excitement. I want to make sure I can get around somewhat easily. Any suggestions are helpful.",
+        img: "",
+        alt:"",
+        number: 4784, 
+        id: "00013"
+    },
+
+    { 
+        poster: "u/Kelly_nicememes", 
+        title: "What's next? I'm scared.",
+        text: "",
+        img: "https://i.redd.it/3e3fwhaazuj71.jpg",
+        alt: "programmer humor meme", 
+        number: 1912, 
+        id: "00014"
+
+    }
+
+]

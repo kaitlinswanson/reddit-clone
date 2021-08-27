@@ -81,6 +81,7 @@ body {
 
 .content-bar { 
     display: flex;
+    align-content: center;
     background-color: white;
     height: 40px;
 }
@@ -90,6 +91,12 @@ body {
     border: none;
     background-color: transparent;
     color: gray;
+    height: 100%;
+    
+}
+
+#best { 
+    background-color: rgba(202, 199, 199, 0.479);
 }
 
 /* Readits Section */
