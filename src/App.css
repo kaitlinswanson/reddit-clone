@@ -77,15 +77,38 @@ body {
     background-color: blue;
     border-radius: 40px;
 }
+/* Content Bar Section */
+
+.content-bar { 
+    display: flex;
+    background-color: white;
+    height: 40px;
+}
+
+.content-buttons { 
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
 
 /* Readits Section */
 
 
 .readit-holder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 40%;
     
+}
+
+.each-post { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .readit-posts {

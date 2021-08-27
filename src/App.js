@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Nav';
 import Readits from './Readits';
 import Notifications from './Notifications';
+import ContentBar from './ContentBar';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import firebase from "firebase/app";
@@ -53,8 +54,8 @@ function App() {
     <div className="App">
       <Nav 
       signIn = {signIn}
-      
       />
+      
       <Switch>
         <Route exact path="/">
         <Readits
