@@ -22,12 +22,12 @@ export const readitData = [
     }, 
 
     {
-        poster: "Posted by u/throwaway212134.",
+        poster: "u/throwaway212134.",
         title: "First time cutting my natural hair...Should I straighten it?",
         text: "I want to get a trim/cut bc i have dead ends and my natural hair lacks shape. I walked into a salon that told me they had to straighten it in order to cut it. I was hesitant about putting heat on it plus wanted to do more research before i mess up my hair and leave the salon crying. I would think if i was going to always be wearing my hair natural then i shouldn’t have to straighten it to cut it. I’ve never done this before so i could be wrong, i just wanted to make sure this was correct and not a stylist just trying to make her life easier.",
         img: "",
         alt:"",
-        number: 26, 
+        number: 1126, 
         id: "00003"
     },
 
@@ -84,6 +84,54 @@ export const hotData = [
         alt: "programmer humor meme", 
         number: 1912, 
         id: "00014"
+
+    }
+
+]
+
+
+
+export const newData = [
+
+    {
+        poster: "u/Theotheraccount23",
+        title: "Comment with the best caption for this meme.",
+        text: "",
+        img: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/04/28/12/evil-kermit-meme.jpg?width=982&height=726&auto=webp&quality=75",
+        alt: "bad kermit meme",
+        number: 119,
+        id: "00021"
+    },
+
+    { 
+        poster: "u/happyday38", 
+        title: "Yup.",
+        text: "I had a wild day at work",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm6Qu9VMk7jE3yuyXASU-MQjIc_nNvBLsDfpN9io32d9mgUFjcPpVB6KAN3LmIQokO4g&usqp=CAU",
+        alt: "frog with sunglasses meme", 
+        number: 172, 
+        id: "00022"
+
+    }, 
+
+    {
+        poster: "u/ididntdoit",
+        title: "Should I get a cat or a dog?",
+        text: "I wneed some help figuring out which type of pet to get. My wife wants a dog and I want a cat. I think we aren't home enough to get a dog and I dont want to be irresponsible and leave him alone during the day. Pls help.",
+        img: "",
+        alt:"",
+        number: 221, 
+        id: "00023"
+    },
+
+    { 
+        poster: "u/Fritzy_knows", 
+        title: "It was me the whole time",
+        text: "",
+        img: "https://s.yimg.com/ny/api/res/1.2/UP1I5o8Kfg3cyqsWjbjzVA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTYyMi44NzEwNDYyMjg3MTA1/https://media.zenfs.com/en-US/the_mighty_beauty_225/a699758e94874c86eedac7f1c1920870",
+        alt: "scooby doo villian meme", 
+        number: 111, 
+        id: "00024"
 
     }
 

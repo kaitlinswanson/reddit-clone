@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
-
-import { readitData } from './ReaditData'; 
-
-
-function Readit({votes, increaseVotes, decreaseVotes}) {
+import { newData } from './ReaditData'
 
 
 
-return (
-    
+
+function NewReadits ({votes, increaseVotes, decreaseVotes}) { 
+
+    return (
     <div className="each-post">
-    {readitData.map((item) => (
+    {newData.map((item) => (
   <div className="readit-posts" key={item.id}>
       <div className="posted-by">Posted by {item.poster}</div>
         <div className="title">{item.title}</div>
@@ -33,10 +31,10 @@ return (
         </div>
         </div>
             )
-        )}
-    </div>
-    
-    );
-}
+            )}
+            </div>
+            
+            );
+        }
 
-export default Readit
+export default NewReadits;

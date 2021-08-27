@@ -31,7 +31,7 @@ function HotReadits ({votes, increaseVotes, decreaseVotes}) {
         </div>
         </div>
             )
-            )};
+            )}
             </div>
             
             );
