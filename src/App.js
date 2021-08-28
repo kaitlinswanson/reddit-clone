@@ -26,7 +26,7 @@ function signIn() {
 function App() {
 
   //useState and useEffect here 
-  const [votes, setVotes] = useState(244)
+  const [votes, setVotes] = useState(0)
 
 
   //JS functions 

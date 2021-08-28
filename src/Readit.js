@@ -3,9 +3,10 @@ import './App.css';
 
 import { readitData } from './ReaditData'; 
 
+//may end up using useEffect to change 'clicked' vs 'unclicked' for the +1 button on the readit votes
+//TODO: make them change independently. 
 
 function Readit({votes, increaseVotes, decreaseVotes}) {
-
 
 
 return (
@@ -18,7 +19,7 @@ return (
         <div className="layout">
         <div className="vote-holder">
             <button className="upvote" onClick={increaseVotes}><i className="fas fa-caret-up"></i></button>
-                <div className="vote-count">{item.number}</div>
+                <div className="vote-count">{(votes + item.number)}</div>
                 <button className="downvote" onClick={decreaseVotes}><i className="fas fa-caret-down"></i></button>
             </div>
         <div className="post-content"> 

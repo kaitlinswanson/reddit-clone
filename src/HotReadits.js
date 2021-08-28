@@ -7,6 +7,9 @@ import { hotData } from './ReaditData'
 
 function HotReadits ({votes, increaseVotes, decreaseVotes}) { 
 
+
+    
+
     return (
     <div className="each-post">
     {hotData.map((item) => (
