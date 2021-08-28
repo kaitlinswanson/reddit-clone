@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Nav';
 import Readits from './Readits';
 import Notifications from './Notifications';
+import Profile from './Profile'
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import firebase from "firebase/app";
@@ -60,6 +61,10 @@ function App() {
 
         <Route exact path="/notifications">
           <Notifications
+          />
+        </Route>
+        <Route exact path="/profile">
+          <Profile
           />
         </Route>
       
