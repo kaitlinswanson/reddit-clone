@@ -217,3 +217,23 @@ body {
 .notifications-message { 
     font-size: large;
 }
+
+/* Profule Section */
+
+.profile-holder { 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+    height: 350px;
+    background-color: rgba(241, 239, 239, 0.692);
+
+}
+
+.profile-message { 
+    margin-top: 25%;
+    font-size: large;
+    font-weight: bold;
+    
+}
