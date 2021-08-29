@@ -19,12 +19,18 @@ return (
         <div className="title">{item.title}</div>
         <div className="layout">
         <div className="vote-holder">
-            <button className="upvote" onClick={() => {
+            <button className="upvote" id={item.id2} onClick={() => {
                 document.getElementById(item.id).innerHTML = (item.number + 1);
+                document.getElementById(item.id2).style = "color: green"
                 }
       }><i className="fas fa-caret-up"></i></button>
-                <div className="vote-count" id={item.id}>{votes + (item.number)}</div>
-                <button className="downvote" onClick={decreaseVotes}><i className="fas fa-caret-down"></i></button>
+                <div className="vote-count" id={item.id}>{item.number}</div>
+
+                <button className="downvote" id={item.id3} onClick={() => {
+                document.getElementById(item.id).innerHTML = (item.number - 1);
+                document.getElementById(item.id3).style = "color: red"
+                }
+                }><i className="fas fa-caret-down"></i></button>
             </div>
         <div className="post-content"> 
             <div className="post-text">{item.text}</div>

@@ -7,7 +7,9 @@ export const readitData = [
         img: "https://bloximages.newyork1.vip.townnews.com/azfamily.com/content/tncms/assets/v3/editorial/c/96/c96ba39e-015d-11ec-ae2c-c35b8d9a2917/611f12c01b2c1.image.png?resize=750%2C422",
         alt: "valley rainfall since 1990",
         number: 244,
-        id: "00001"
+        id: "00001",
+        id2: "1001",
+        id3: "2001"
     },
 
     { 
@@ -17,7 +19,9 @@ export const readitData = [
         img: "https://preview.redd.it/uktfx1iiscj71.jpg?width=640&height=652&crop=smart&auto=webp&s=278b5ede49bb45b2728b146d7e9a6f5f5322bc5c",
         alt: "comment section meme", 
         number: 191, 
-        id: "00002"
+        id: "00002",
+        id2: "1002",
+        id3: "2002"
 
     }, 
 
@@ -28,7 +32,9 @@ export const readitData = [
         img: "",
         alt:"",
         number: 1126, 
-        id: "00003"
+        id: "00003",
+        id2: "1003",
+        id3: "2003"
     },
 
     {
@@ -38,7 +44,9 @@ export const readitData = [
         img: "https://preview.redd.it/fnbckmu1jvi71.jpg?width=640&height=477&crop=smart&auto=webp&s=516a38085f6b9028fdeadc8d9321c3cda6446c69",
         alt:"embarrassment is ok meme", 
         number: 980, 
-        id: "00004"
+        id: "00004",
+        id2: "1004",
+        id3: "2004"
     }
 
 ]
@@ -52,7 +60,9 @@ export const hotData = [
         img: "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/is_my_cat_normal_slideshow/1800x1200_is_my_cat_normal_slideshow.jpg",
         alt: "striped cat picture",
         number: 111,
-        id: "00011"
+        id: "00011",
+        id2: "1005",
+        id3: "2005"
     },
 
     { 
@@ -62,7 +72,9 @@ export const hotData = [
         img: "https://images.theconversation.com/files/38926/original/5cwx89t4-1389586191.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
         alt: "kid meme", 
         number: 546, 
-        id: "00012"
+        id: "00012",
+        id2: "1006",
+        id3: "2006"
 
     }, 
 
@@ -73,7 +85,9 @@ export const hotData = [
         img: "",
         alt:"",
         number: 4784, 
-        id: "00013"
+        id: "00013",
+        id2: "1007",
+        id3: "2007"
     },
 
     { 
@@ -83,7 +97,9 @@ export const hotData = [
         img: "https://i.redd.it/3e3fwhaazuj71.jpg",
         alt: "programmer humor meme", 
         number: 1912, 
-        id: "00014"
+        id: "00014",
+        id2: "1008",
+        id3: "2008"
 
     }
 
@@ -100,7 +116,9 @@ export const newData = [
         img: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/04/28/12/evil-kermit-meme.jpg?width=982&height=726&auto=webp&quality=75",
         alt: "bad kermit meme",
         number: 119,
-        id: "00021"
+        id: "00021",
+        id2: "1009",
+        id3: "2009"
     },
 
     { 
@@ -110,7 +128,9 @@ export const newData = [
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm6Qu9VMk7jE3yuyXASU-MQjIc_nNvBLsDfpN9io32d9mgUFjcPpVB6KAN3LmIQokO4g&usqp=CAU",
         alt: "frog with sunglasses meme", 
         number: 172, 
-        id: "00022"
+        id: "00022",
+        id2: "1010",
+        id3: "2010"
 
     }, 
 
@@ -121,7 +141,9 @@ export const newData = [
         img: "",
         alt:"",
         number: 221, 
-        id: "00023"
+        id: "00023",
+        id2: "1011",
+        id3: "2011"
     },
 
     { 
@@ -131,7 +153,9 @@ export const newData = [
         img: "https://s.yimg.com/ny/api/res/1.2/UP1I5o8Kfg3cyqsWjbjzVA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTYyMi44NzEwNDYyMjg3MTA1/https://media.zenfs.com/en-US/the_mighty_beauty_225/a699758e94874c86eedac7f1c1920870",
         alt: "scooby doo villian meme", 
         number: 111, 
-        id: "00024"
+        id: "00024",
+        id2: "1012",
+        id3: "2012"
 
     }
 
