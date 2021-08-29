@@ -6,7 +6,7 @@ import { readitData } from './ReaditData';
 //may end up using useEffect to change 'clicked' vs 'unclicked' for the +1 button on the readit votes
 //TODO: make them change independently. 
 
-function Readit({votes, increaseVotes, decreaseVotes}) {
+function Readit() {
 
 
 

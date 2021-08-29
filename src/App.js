@@ -26,21 +26,6 @@ function signIn() {
 
 function App() {
 
-  //useState and useEffect here 
-  const [votes, setVotes] = useState(0)
-
-
-  //JS functions 
-  //upvote/downvote functions
-
-  function increaseVotes() {
-    setVotes(prevVotes => prevVotes + 1);
-  }
-
-  function decreaseVotes() {
-    setVotes(prevVotes => prevVotes - 1)
-  }
-
 
   return (
     <Router>
@@ -52,9 +37,7 @@ function App() {
       <Switch>
         <Route exact path="/">
         <Readits
-        votes = {votes}
-        increaseVotes = {increaseVotes}
-        decreaseVotes = {decreaseVotes}
+
 
       />
         </Route>

@@ -7,7 +7,7 @@ import NewReadits from './NewReadits'
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 
-function Readits({votes, increaseVotes, decreaseVotes}) {
+function Readits() {
 
     return (
         <Router>
@@ -16,23 +16,17 @@ function Readits({votes, increaseVotes, decreaseVotes}) {
             <Switch>
             <Route  exact path="/">
         <Readit 
-        votes={votes}
-        increaseVotes={increaseVotes}
-        decreaseVotes={decreaseVotes}
+        
         />
         </Route>
         <Route exact path="/hot">
         <HotReadits
-        votes={votes}
-        increaseVotes={increaseVotes}
-        decreaseVotes={decreaseVotes}
+        
         />
         </Route>
         <Route exact path="/new">
         <NewReadits
-        votes={votes}
-        increaseVotes={increaseVotes}
-        decreaseVotes={decreaseVotes}
+        
         />
         </Route>
         </Switch>

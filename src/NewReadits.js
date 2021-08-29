@@ -5,7 +5,7 @@ import { newData } from './ReaditData'
 
 
 
-function NewReadits ({votes, increaseVotes, decreaseVotes}) { 
+function NewReadits () { 
 
     return (
     <div className="each-post">

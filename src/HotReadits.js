@@ -5,7 +5,7 @@ import { hotData } from './ReaditData'
 
 
 
-function HotReadits ({votes, increaseVotes, decreaseVotes}) { 
+function HotReadits () { 
 
 
     
