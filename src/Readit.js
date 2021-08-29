@@ -9,6 +9,7 @@ import { readitData } from './ReaditData';
 function Readit({votes, increaseVotes, decreaseVotes}) {
 
 
+
 return (
     
     <div className="each-post">
@@ -18,8 +19,11 @@ return (
         <div className="title">{item.title}</div>
         <div className="layout">
         <div className="vote-holder">
-            <button className="upvote" onClick={increaseVotes}><i className="fas fa-caret-up"></i></button>
-                <div className="vote-count">{(votes + item.number)}</div>
+            <button className="upvote" onClick={() => {
+                document.getElementById(item.id).innerHTML = (item.number + 1);
+                }
+      }><i className="fas fa-caret-up"></i></button>
+                <div className="vote-count" id={item.id}>{votes + (item.number)}</div>
                 <button className="downvote" onClick={decreaseVotes}><i className="fas fa-caret-down"></i></button>
             </div>
         <div className="post-content"> 
