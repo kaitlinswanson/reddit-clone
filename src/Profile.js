@@ -5,7 +5,7 @@ function Profile() {
   return (
     <div className="profile-holder">
       <div className="profile-message">
-        hmm...looks like you haven't posted anything.
+        hmm...looks like you haven't posted anything yet.
       </div>
     </div>
   );
